@@ -1,7 +1,28 @@
 ﻿@{
-    ViewBag.Title = "About";
+    ViewBag.Title = "About Me";
+    @Styles.Render("~/Content/StyleSheet.css");
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+<body>
+    <div class="row">
+        <h2>@ViewBag.Title.</h2>
+        <h3>@ViewBag.Message</h3>
+    </div>
+
+    <div class="row" style="padding-top:2em"> 
+        <div class="col-sm-4">
+            <img src="~/Content/images/DannyBentleyImage.jpg" class="img-responsive"/>
+        </div>
+        
+        <div class="col-lg-6">
+            <p>
+                I'm Danny Bentley a structural BIM Designer and developer at Skidmore Owings & Merrill.  I'm passionate about all things tech for Architecture, Engineering, and Construction (AEC).
+
+                I work with the Revit API to develop add-ins.  I enjoy making workflows using Dynamo for our teams.  I'm also an AR and VR enthusiast looking for ways to integrate this technology into the AEC discipline.
+            </p>
+        </div>
+        
+    </div>
+</body>
+
+

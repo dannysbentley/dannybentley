@@ -15,7 +15,7 @@ namespace dannybentley.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Little bit about me.";
 
             return View();
         }
