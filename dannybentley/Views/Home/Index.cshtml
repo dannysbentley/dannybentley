@@ -4,12 +4,24 @@
 }
 
 <body>
-
-    <div class="img-container">
-        <div class="inner-container">
-            <h2>Design Technology</h2>
+    <!--Slider-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!--ordered list-->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="~/Content/images/" />
+                <div class="carousel-caption"></div>
+                <h1>get to know</h1>
+                <br />
+                <button type="button" class="btn btn-default">get started</button>
+            </div>
         </div>
-    </div>
+    </div><!--End Slider-->
 
     <div class="container" style="padding-top: 5em">
         <div class="row">
