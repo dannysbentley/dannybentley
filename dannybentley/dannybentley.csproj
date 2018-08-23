@@ -160,6 +160,7 @@
     <Content Include="Content\images\giphy.gif" />
     <Content Include="Content\images\html5.png" />
     <Content Include="Content\images\points.gif" />
+    <Content Include="Content\StyleForm.css" />
     <Content Include="Content\StyleSheet.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
