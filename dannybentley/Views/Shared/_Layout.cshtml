@@ -6,64 +6,57 @@
     <title>@ViewBag.Title - Danny Bentley.tech</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
-    
+    @Styles.Render("~/Content/Site.css")
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 </head>
 
 <body>
-    @Styles.Render("~/Content/Site.css")
     <!--navigation bar-->
     <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
                 @Html.ActionLink("brand", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
 
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                        <li>@Html.ActionLink("About Me", "About", "Home")</li>
-                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    </ul>
-                </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="navicon">@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li id="navicon">@Html.ActionLink("About Me", "About", "Home")</li>
+                    <li id="navicon">@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
             </div>
         </div>
     </div>
 
-    <!--Body layout-->
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-    </div>
-
-    <!--Footer layout-->
-    <footer>
-        <div class="row text-center">
-            <h4>Connect</h4>
+        <!--Body layout-->
+        <div class="container body-content">
+            @RenderBody()
+            <hr />
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <i class="fab fa-git"></i>
-                <h5>git</h5>
-            </div>
-            <div>
-                <i class="fab fa-twitter"></i>
-                <h5>twitter</h5>
-            </div>
-            <div>
-                <i class="fab fa-youtube"></i>
-                <h5>Youtube</h5>
-            </div>
-        </div>
-    </footer>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+        <!--Footer layout-->
+        <footer>
+            <div class="copyright">
+                <h4>Connect With Me</h4>
+            </div>
+
+            <div class="social">
+                <h3>
+                    <i class="fab fa-git"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </h3>
+            </div>
+        </footer>
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
 </body>
 </html>
