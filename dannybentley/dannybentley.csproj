@@ -157,9 +157,12 @@
     <Content Include="Content\images\bootstrap.png" />
     <Content Include="Content\images\css3.png" />
     <Content Include="Content\images\DannyBentleyImage.jpg" />
+    <Content Include="Content\images\DynamoLogo.jpg" />
+    <Content Include="Content\images\Forge.jpg" />
     <Content Include="Content\images\giphy.gif" />
     <Content Include="Content\images\html5.png" />
     <Content Include="Content\images\points.gif" />
+    <Content Include="Content\images\RevitLogo.jpg" />
     <Content Include="Content\StyleForm.css" />
     <Content Include="Content\StyleSheet.css" />
     <Content Include="favicon.ico" />
