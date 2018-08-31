@@ -163,6 +163,7 @@
     <Content Include="Content\images\html5.png" />
     <Content Include="Content\images\points.gif" />
     <Content Include="Content\images\RevitLogo.jpg" />
+    <Content Include="Content\images\webpanel1.gif" />
     <Content Include="Content\StyleForm.css" />
     <Content Include="Content\StyleSheet.css" />
     <Content Include="favicon.ico" />
