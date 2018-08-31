@@ -2,13 +2,13 @@
     padding-top: 50px;
     padding-bottom: 20px;
 }
-
+/*navigation bar*/
 .navbar-inverse {
     background-color: #0b4f6c;
 }
 
 #navicon a {
-    margin: auto 15px;
+    margin: auto 10px;
     color: #fbfbff;
 }
 
@@ -17,7 +17,15 @@
     color: #fbfbff;
 }
 #navicon a:focus{
-    color:red;
+    color:#fbfbff;
+}
+
+/*brand logo*/
+#brandId a {
+    color: #01baef;
+}
+#brandId a:hover {
+    color: #fbfbff;
 }
 
 /*Footer styling*/
@@ -30,13 +38,13 @@ footer {
 footer .copyright {
     margin: 10px auto;
     text-align: center;
-    color: #01baef;
+    color: #061a26;
 }
 
 footer .social {
     margin: 10px auto;
     text-align: center;
-    color: red;
+    color: #061a26;
 }
 
 /* Set padding to keep content from hitting the edges*/
