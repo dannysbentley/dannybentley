@@ -9,7 +9,7 @@
     transform: translateY(-50%);
     text-transform:uppercase;
 }
-
+/*carousel button*/
 .btn{
     font-size: 18px;
     color:#FFF;
@@ -34,7 +34,14 @@
     margin: 4% auto;
 }
 
+/*Images for Forge, Revit API and Dynamo*/
 #icon {
     max-width:200px;
+    margin: 1% auto;
+}
+
+/*Image for blog*/
+#blogicon {
+    max-width: 50px;
     margin: 1% auto;
 }

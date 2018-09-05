@@ -1,6 +1,6 @@
 ﻿body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 /*navigation bar*/
 .navbar-inverse {
@@ -8,7 +8,7 @@
 }
 
 #navicon a {
-    margin: auto 10px;
+    margin: auto 7px;
     color: #fbfbff;
 }
 
@@ -23,6 +23,7 @@
 /*brand logo*/
 #brandId a {
     color: #01baef;
+    margin:auto;
 }
 #brandId a:hover {
     color: #fbfbff;
