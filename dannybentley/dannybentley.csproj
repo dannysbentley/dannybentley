@@ -166,6 +166,7 @@
     <Content Include="Content\images\webpanel1.gif" />
     <Content Include="Content\StyleForm.css" />
     <Content Include="Content\StyleSheet.css" />
+    <Content Include="Content\StyleSheetPages.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

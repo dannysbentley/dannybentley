@@ -13,6 +13,16 @@ namespace dannybentley.Controllers
             return View();
         }
 
+        public ActionResult RevitAPI()
+        {
+            return View();
+        }
+
+        public ActionResult DynamoBIM()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Little bit about me.";

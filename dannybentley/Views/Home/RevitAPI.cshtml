@@ -2,7 +2,57 @@
 @{
     ViewBag.Title = "RevitAPI";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    @Styles.Render("~/Content/StyleSheetPages.css");
 }
 
-<h2>RevitAPI</h2>
+<body>
+    <!--Revit Expand-->
+    <div class="container text-center">
+        <h3>Revit API - Expand Revit's Capability</h3>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="~/Content/images/css3.png" id="icon" />
+        </div>
+        <div class="col-sm-6 text-left">
+            <p>
+                Revit's API allows us to build tools to automate many tasks in Revit.  Developing using this API can be a challange and having a good understanding of how Revit is structured will help you understand how to build great tools.
+            </p>
+        </div>
+    </div>
+    <br />
+
+    <!--Interoperability-->
+    <div class="container text-center">
+        <h3>Digital model - Interoperability</h3>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="~/Content/images/css3.png" id="icon" />
+        </div>
+        <div class="col-sm-6 text-left">
+            <p>
+                We can extract element data, geometry and point location to send between software.  The API is a great tool when trying to link information between Revit and another design software.
+            </p>
+        </div>
+    </div>
+
+    <!--Development-->
+    <div class="container text-center">
+        <h3>Tools - Development and Execute</h3>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="~/Content/images/css3.png" id="icon" />
+        </div>
+        <div class="col-sm-6 text-left">
+            <p>
+                Current tools under construction range from small add-ins to more ambitious projects.  The tools start as project specific tools that later are imporoved to be used more broadly. 
+            </p>
+        </div>
+    </div>
+</body>
 

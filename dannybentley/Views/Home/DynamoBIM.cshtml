@@ -2,7 +2,68 @@
 @{
     ViewBag.Title = "DynamoBIM";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    @Styles.Render("~/Content/StyleSheetPages.css");
 }
+<body>
+    <!--Revit Expand-->
+    <div class="container text-center">
+        <h3>Dynamo - Quickly Build Automation</h3>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="~/Content/images/css3.png" id="icon" />
+        </div>
+        <div class="col-sm-6 text-left">
+            <p>
+                Dynamo has become an important part of the everyday work flow.  Large projects are for the most part too complex and have too many items to attempt to generate or manipulate manualy. 
 
-<h2>DynamoBIM</h2>
+                Developing a Dynamo flow can help a developer protoype their idea quickly using the Revit API. Testing that the idea works and that we can implement it.  
+
+                Many tools begin as a Dynamo flow which are later developed to a more stable application that can scale in the firm. 
+            </p>
+        </div>
+    </div>
+    <br />
+
+    <!--Interoperability-->
+    <div class="container text-center">
+        <h3>Dynamic - Import, Update and Create Data</h3>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="~/Content/images/css3.png" id="icon" />
+        </div>
+        <div class="col-sm-6 text-left">
+            <p>
+                We can extract element data, geometry and point location to send between software.  The API is a great tool when trying to link information between Revit and another software.
+
+                Currently a Dynamo flow will collect all the model elements and export them to a csv file.  The csv file can be use to build a No SQL data base which has a one to many relationship the element id being the one and all its properties being the many.  
+
+                Dynamo also help build geometry from different software such a Etabs and Rhino.  The point geometry and item properties can be mapped from the software to Revit using Dynamo.  
+
+                Dynamo is such a flexable enviorment that during a demonstration I proved it linking Amazon Alexa to the Revit model.  The tool was a prototype but proved the ability to build a complex tool that implmented many parts.
+            </p>
+        </div>
+    </div>
+
+    <!--Development-->
+    <div class="container text-center">
+        <h3>Tools - Development and Execute</h3>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-sm-4">
+            <img src="~/Content/images/css3.png" id="icon" />
+        </div>
+        <div class="col-sm-6 text-left">
+            <p>
+                Development begins when discovering an inafficancy in a every day work flow.  When something like this is found planning begins on building a tool.  Starting with Dynamo is always a good option to test the idea and build a programming diagram.  
+
+                One of the fast and most stable ways to build is using Python.  I have a collection of generic code that can be used many times during development and edited to meet the need of the current code. 
+            </p>
+        </div>
+    </div>
+</body>
 
