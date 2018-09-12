@@ -6,7 +6,7 @@
 <body>
     <!--Slider-->
     <div class="row-fluid">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="19000">
             <!--ordered list-->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -16,14 +16,14 @@
             <!--Slider Images-->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <img src="~/Content/images/1024x700.png" />                    
+                    <img src="~/Content/images/webpanel1.gif" />                    
                 </div>
                 <div class="item">
                     <img src="~/Content/images/119922.png" />
                     <div class="carousel-caption">
                         <h1>Get to know</h1>
                         <br />
-                        <button type="button" class="btn btn-default">get started</button>
+                        <button type="button" class="btn btn-default">Subscribe</button>
                     </div>
                 </div>
                 <div class="item">
@@ -51,21 +51,27 @@
         <!--division of items-->
         <div class="row">
             <div class="col-sm-4">
-                <img src="~/Content/images/Forge.jpg" id="icon"/>
+                <a href="~/Home/Forge">
+                    <img src="~/Content/images/Forge.jpg" id="icon" />
+                </a>
                 <h4>Forge Autodesk</h4>
                 <p>
                     Forge is Autodesk's online cloud APIs.  This is a sandbox for testing new development. 
                 </p>
             </div>
             <div class="col-sm-4">
-                <img src="~/Content/images/RevitLogo.jpg" id="icon" />
+                <a href="~/Home/RevitAPI">
+                    <img src="~/Content/images/RevitLogo.jpg" id="icon" />
+                </a>
                 <h4>Revit API C#</h4>
                 <p>
                     Automating everyday production workflows.  This is an attemt to share my experiance and work with the Revit API. 
                 </p>
             </div>
             <div class="col-sm-4">
-                <img src="~/Content/images/DynamoLogo.jpg" id="icon" />
+                <a href="~/Home/DynamoBIM">
+                    <img src="~/Content/images/DynamoLogo.jpg" id="icon" />
+                </a>
                 <h4>Dynamo with Python</h4>
                 <p>
                     Lightweight and rapid visual programming.  I like to share my flows and Python examples with the Dynamo community.
