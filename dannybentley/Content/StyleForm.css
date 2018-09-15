@@ -1,40 +1,51 @@
 ﻿/*form layout*/
 form{
-    margin: 4em auto;
-    width: 500px;
+    overflow: hidden;
+    /*margin: 4em auto;
+    width: auto;
     padding: 1em;
-    border: 1px solid black;
+    border: 1px solid black;*/
 }
 /*division between cells in form*/
-form div + div{
+/*form div + div{
     margin-top: 1em;
-}
+}*/
+
 /*labels text*/
 label{
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+    /*
     display: inline-block;
     width: 90px;
-    text-align: right;
+    text-align: right;*/
 }
 /*input of name and email*/
 input{
-    width: 400px;
+    float: left;
+    width: calc(100%-200px);
+    /*width: 400px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid black;*/
 }
-/*border around input*/
-input:focus textarea:focus{
-    border-color: #000;
-}
+
 /*message box*/
 textarea{
-    vertical-align: top;
-    height: 20em;
-    width: 600px;
+    float:left;
+    width:calc(100%-200px);
+    /*vertical-align: top;
+    height: 20em;*/
 }
+
 /*button*/
-.btn{
+button{
+    float: right;
+    width: calc(100% - 200px);
+}
+/*.btn{
     padding: 90px;
 }
 button{
     margin-left: .5em;
-}
+}*/

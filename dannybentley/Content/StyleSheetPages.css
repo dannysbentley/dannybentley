@@ -4,6 +4,13 @@
     margin: 1% auto;
 }
 
+/*About me image of me circular*/
+.circular-image {
+    max-width: 200px;
+    margin: 1% auto;
+    border-radius: 50%
+}
+
 h3 {
     color: #01baef;
 }
